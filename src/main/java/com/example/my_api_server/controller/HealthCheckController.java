@@ -13,7 +13,7 @@ public class HealthCheckController {
 
     @GetMapping
     public ResponseEntity<String> health() {
-        return ResponseEntity.ok("연결 성공111");
+        return ResponseEntity.ok("연결 성공123");
     }
 
 }
